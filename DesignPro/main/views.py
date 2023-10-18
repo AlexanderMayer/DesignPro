@@ -36,4 +36,8 @@ class RegisterUserView(CreateView):
 
 
 class RegisterDoneView(TemplateView):
-   template_name = 'main/register_done.html'
+    template_name = 'main/register_done.html'
+
+
+class QueryView(TemplateView):
+    template_name = 'main/query.html'

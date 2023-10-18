@@ -43,3 +43,5 @@ class RegisterUserForm(forms.ModelForm):
         model = AdvUser
         fields = ('username', 'email', 'password1', 'password2',
                   'first_name', 'last_name', 'send_messages')
+
+
